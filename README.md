@@ -6,20 +6,6 @@ The following is the above introduction translated to braille:
 
 ⠠⠞⠗⠁⠝⠎⠇⠁⠞⠊⠝⠛ ⠞⠑⠭⠞ ⠖ ⠠⠛⠗⠁⠙⠑ ⠼⠃ ⠠⠃⠗⠁⠊⠇⠇⠑ ⠊⠎ ⠁ ⠝⠕⠝⠤⠞⠗⠊⠧⠊⠁⠇ ⠞⠁⠎⠅ ⠎⠊⠝⠉⠑ ⠭ ⠊⠎ ⠝ ⠚ ⠁ ⠧⠁⠗⠊⠁⠝⠞ ⠷ ⠮ ⠁⠇⠏⠓⠁⠃⠑⠞⠂ ⠭ ⠊⠎ ⠁⠝ ⠊⠝⠙⠑⠏⠑⠝⠙⠑⠝⠞ ⠺⠗⠊⠞⠊⠝⠛ ⠎⠽⠎⠞⠑⠍⠲ ⠠⠊⠞⠑⠗⠁⠞⠊⠝⠛ ⠕⠧⠑⠗ ⠁ ⠎⠞⠗⠊⠝⠛ ⠯ ⠞⠗⠁⠝⠎⠇⠁⠞⠊⠝⠛ ⠭ ⠕⠝⠑ ⠉⠓⠁⠗⠁⠉⠞⠑⠗ ⠁⠞ ⠁ ⠞⠊⠍⠑ ⠺ ⠝ ⠽⠊⠑⠇⠙ ⠉⠕⠗⠗⠑⠉⠞ ⠗⠑⠎⠥⠇⠞⠎ ⠿ ⠠⠛⠗⠁⠙⠑ ⠼⠃ ⠠⠃⠗⠁⠊⠇⠇⠑⠲ ⠠⠍⠁⠝⠽ ⠃⠗⠁⠊⠇⠇⠑ ⠎⠽⠍⠃⠕⠇⠎ ⠓ ⠍⠥⠇⠞⠊⠏⠇⠑ ⠍⠑⠁⠝⠊⠝⠛⠎ ⠯ ⠞⠓⠊⠎ ⠉ ⠇⠑⠁⠙ ⠖ ⠁⠍⠃⠊⠛⠥⠊⠞⠊⠑⠎⠲ ⠠⠋⠥⠗⠞⠓⠑⠗⠍⠕⠗⠑⠂ ⠉⠑⠗⠞⠁⠊⠝ ⠺⠕⠗⠙⠎ ⠯ ⠇⠑⠞⠞⠑⠗⠎ ⠞ ⠁⠗⠑ ⠉⠕⠍⠍⠕⠝⠇⠽ ⠎⠑⠑⠝ ⠔ ⠮ ⠠⠑⠝⠛⠇⠊⠎⠓ ⠇⠁⠝⠛⠥⠁⠛⠑ ⠉ ⠃⠑ ⠗⠑⠏⠗⠑⠎⠑⠝⠞⠑⠙ ⠃⠽ ⠋⠑⠺⠑⠗ ⠃⠗⠁⠊⠇⠇⠑ ⠎⠽⠍⠃⠕⠇⠎ ⠞⠓⠁⠝ ⠞⠓⠑⠗⠑ ⠁⠗⠑ ⠇⠑⠞⠞⠑⠗⠎ ⠶⠞⠓⠑⠎⠑ ⠁⠗⠑ ⠉⠁⠇⠇⠑⠙ ⠉⠕⠝⠞⠗⠁⠉⠞⠊⠕⠝⠎⠶⠲ ⠠⠮ ⠁⠇⠛⠕⠗⠊⠞⠓⠍ ⠥⠎⠑⠙ ⠔ ⠞⠓⠊⠎ ⠎⠕⠋⠞⠺⠁⠗⠑ ⠊⠎ ⠎⠥⠍⠍⠁⠗⠊⠵⠑⠙ ⠃⠑⠇⠕⠺⠲
 
-## Usage
-```
-
-Usage:
-    Usage:
-        main.py <parameter>
-        main.py <file name> <parameter>
-    Parameters:
-        -braille | --b      translate braille to text
-        -text    | --t      translate text to braille
-        -help    | --h      display this screen
-        -map     | --m      print translation map
-
-```
 
 ## The Algorithm for Translating Alphabet Based Text to Grade 2 Braille:
 1. Split up the text into words by dividing them based on whitespace characters.
