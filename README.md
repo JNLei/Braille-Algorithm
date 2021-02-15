@@ -39,8 +39,3 @@ The following is the above introduction translated to braille:
             - There is no braille symbol for a generic quote (")
             - There is only open quotation (“) and closed quotation (”).
             - Therefore we must keep track of what the last quotation was to translate it correctly.
-
-## Disclaimer
-Creating a perfect braille translation can only be done by a human as it requires an understanding of the content at hand. Also, many braille contractions follow pronunciation so programming this can be quite tricky. For instance, the “th” contraction that is used in “thought” would not be used in “pothole”.
-
-This Braille Translator does not include partial contractions as this would increase the complexity of the code ten-fold. This software is meant to provide a rough translation and was written as a means for me to learn Python. Anyone who wants to produce quality braille to meet contract standards should consider consulting an expert instead.
